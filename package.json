@@ -1,0 +1,16 @@
+{
+  "name": "basecamp-support-agent-backend",
+  "version": "1.0.0",
+  "description": "AI customer support agent backend - understands requests, retrieves info, uses business tools, responds conversationally.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
+  }
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Basecamp Support Agent</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="bc-root">
+    <div id="bc-sidebar">
+      <div id="bc-brand">Basecamp Supply Co.<small>AI Support Agent</small></div>
+
+      <div class="bc-capgroup">
+        <h4>What this agent can do</h4>
+        <div class="bc-cap"><span class="dot"></span>Understand what you're asking, in plain language</div>
+        <div class="bc-cap"><span class="dot"></span>Search the help center for accurate answers</div>
+        <div class="bc-cap"><span class="dot"></span>Look up real order status</div>
+        <div class="bc-cap"><span class="dot"></span>Process eligible refunds</div>
+        <div class="bc-cap"><span class="dot"></span>Hand off to a human when it's stuck</div>
+      </div>
+
+      <div id="bc-orders-note">
+        Try order IDs <code>BC-1042</code>, <code>BC-2207</code>, or <code>BC-3390</code> — the demo's mock order database.
+      </div>
+    </div>
+
+    <div id="bc-main">
+      <div id="bc-header">
+        <h1>Ask Basecamp Support</h1>
+        <span id="bc-status">ready</span>
+      </div>
+
+      <div id="bc-thread"></div>
+      <div id="bc-suggestions"></div>
+
+      <div id="bc-inputbar">
+        <textarea id="bc-input" rows="1" placeholder="Where's my order BC-1042?"></textarea>
+        <button id="bc-send">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
